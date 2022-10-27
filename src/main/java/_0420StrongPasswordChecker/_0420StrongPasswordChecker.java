@@ -1,9 +1,9 @@
-package _420StrongPasswordChecker;
+package _0420StrongPasswordChecker;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class _420StrongPasswordChecker {
+public class _0420StrongPasswordChecker {
 
     private final String REGEX_LENGTH   = "(\\S){6,20}";
     private final String REGEX_UPPER    = "([A-Z]+)";

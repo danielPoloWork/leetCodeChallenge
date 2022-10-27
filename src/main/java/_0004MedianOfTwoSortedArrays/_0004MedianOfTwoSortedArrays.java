@@ -1,8 +1,8 @@
-package _4MedianOfTwoSortedArrays;
+package _0004MedianOfTwoSortedArrays;
 
 import java.util.Arrays;
 
-public class _4MedianOfTwoSortedArrays {
+public class _0004MedianOfTwoSortedArrays {
 
     public Double solution(Integer[] numbersA, Integer[] numbersB) {
         if (isConstraintsChecked(numbersA, numbersB)) {

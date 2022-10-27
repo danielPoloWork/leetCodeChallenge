@@ -1,9 +1,9 @@
 import _1662CheckIfTwoStringArraysAreEquivalent._1662CheckIfTwoStringArraysAreEquivalent;
-import _1TwoSum._1TwoSum;
-import _2AddTwoNumbers._2AddTwoNumbers;
-import _420StrongPasswordChecker._420StrongPasswordChecker;
-import _4MedianOfTwoSortedArrays._4MedianOfTwoSortedArrays;
-import _835ImageOverlap._835ImageOverlap;
+import _0001TwoSum._0001TwoSum;
+import _0002AddTwoNumbers._0002AddTwoNumbers;
+import _0420StrongPasswordChecker._0420StrongPasswordChecker;
+import _0004MedianOfTwoSortedArrays._0004MedianOfTwoSortedArrays;
+import _0835ImageOverlap._0835ImageOverlap;
 import utils.RandomUtil;
 
 import java.util.ArrayList;
@@ -13,11 +13,11 @@ import java.util.Optional;
 
 public class Main {
 
-    private static final _1TwoSum twoSum = new _1TwoSum();
-    private static final _2AddTwoNumbers addTwoNumbers = new _2AddTwoNumbers();
-    private static final _4MedianOfTwoSortedArrays medianOfTwoSortedArrays = new _4MedianOfTwoSortedArrays();
-    private static final _420StrongPasswordChecker strongPasswordChecker = new _420StrongPasswordChecker();
-    private static final _835ImageOverlap imageOverlap = new _835ImageOverlap();
+    private static final _0001TwoSum twoSum = new _0001TwoSum();
+    private static final _0002AddTwoNumbers addTwoNumbers = new _0002AddTwoNumbers();
+    private static final _0004MedianOfTwoSortedArrays medianOfTwoSortedArrays = new _0004MedianOfTwoSortedArrays();
+    private static final _0420StrongPasswordChecker strongPasswordChecker = new _0420StrongPasswordChecker();
+    private static final _0835ImageOverlap imageOverlap = new _0835ImageOverlap();
     private static final _1662CheckIfTwoStringArraysAreEquivalent arrayStringsAreEqual = new _1662CheckIfTwoStringArraysAreEquivalent();
 
 

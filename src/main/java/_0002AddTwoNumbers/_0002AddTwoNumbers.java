@@ -1,9 +1,9 @@
-package _2AddTwoNumbers;
+package _0002AddTwoNumbers;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class _2AddTwoNumbers {
+public class _0002AddTwoNumbers {
     public  List<Integer> solution(List<Integer> listA, List<Integer> listB) {
         if (listA.size() > 99 || listB.size() > 99) {
             throw new RuntimeException("The list size must be in the range [1, 100].");

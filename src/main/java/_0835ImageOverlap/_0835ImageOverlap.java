@@ -1,6 +1,6 @@
-package _835ImageOverlap;
+package _0835ImageOverlap;
 
-public class _835ImageOverlap {
+public class _0835ImageOverlap {
 
     public Integer solution(Integer[][] imageA, Integer[][] imageB) {
         imageA = shiftRight(imageA);

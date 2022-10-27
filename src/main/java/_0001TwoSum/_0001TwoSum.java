@@ -1,8 +1,8 @@
-package _1TwoSum;
+package _0001TwoSum;
 
 import java.util.Optional;
 
-public class _1TwoSum {
+public class _0001TwoSum {
     
     public Optional<Integer[]> solution(Integer[] numbers, Integer target) {
         for (int a = 0; a < numbers.length; a++) {
