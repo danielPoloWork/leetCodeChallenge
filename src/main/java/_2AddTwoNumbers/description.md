@@ -6,6 +6,8 @@ and each of their nodes contains a single digit. Add the two numbers and return 
 You may assume the two numbers do not contain any leading zero, except the number 0 itself.
 
 **Example 1:**
+
+![](../../resources/images/_2AddTwoNumbers/addtwonumber1.jpg)
 - Input: listA = [2,4,3], listB = [5,6,4]
 - Output: [7,0,8]
 - Explanation: 342 + 465 = 807.
