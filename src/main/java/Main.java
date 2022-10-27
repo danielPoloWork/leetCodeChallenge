@@ -1,7 +1,10 @@
 import _1662CheckIfTwoStringArraysAreEquivalent._1662CheckIfTwoStringArraysAreEquivalent;
 import _1TwoSum._1TwoSum;
 import _2AddTwoNumbers._2AddTwoNumbers;
+import _420StrongPasswordChecker._420StrongPasswordChecker;
+import _4MedianOfTwoSortedArrays._4MedianOfTwoSortedArrays;
 import _835ImageOverlap._835ImageOverlap;
+import utils.RandomUtil;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -12,6 +15,8 @@ public class Main {
 
     private static final _1TwoSum twoSum = new _1TwoSum();
     private static final _2AddTwoNumbers addTwoNumbers = new _2AddTwoNumbers();
+    private static final _4MedianOfTwoSortedArrays medianOfTwoSortedArrays = new _4MedianOfTwoSortedArrays();
+    private static final _420StrongPasswordChecker strongPasswordChecker = new _420StrongPasswordChecker();
     private static final _835ImageOverlap imageOverlap = new _835ImageOverlap();
     private static final _1662CheckIfTwoStringArraysAreEquivalent arrayStringsAreEqual = new _1662CheckIfTwoStringArraysAreEquivalent();
 
@@ -19,16 +24,18 @@ public class Main {
     public static void main(String[] args) {
 
         long startTime = System.nanoTime();
-        printImageOverlap();
+        printMedianOfTwoSortedArrays();
         long endTime   = System.nanoTime();
         long totalTime = endTime - startTime;
         System.out.println("Execution time in nanoseconds  : " + totalTime);
         System.out.println("Execution time in milliseconds : " + totalTime / 1000000);
 
-        //printTwoSum(); //1
-        //printAddTwoNumbers(); //2
-        //printImageOverlap(); //835
-        //printArrayStringsAreEqual(); //1662
+        //printTwoSum();                                                                                                //1
+        //printAddTwoNumbers();                                                                                         //2
+        //printMedianOfTwoSortedArrays();                                                                               //4
+        //printStrongPasswordChecker();                                                                                 //420
+        //printImageOverlap();                                                                                          //835
+        //printArrayStringsAreEqual();                                                                                  //1662
     }
 
     private static void printTwoSum() {
@@ -60,6 +67,17 @@ public class Main {
 
         System.out.println(addTwoNumbers.solution(a, b));
     }
+    private static void printMedianOfTwoSortedArrays() {
+        Integer[] a = new Integer[1000];
+        Integer[] b = new Integer[1000];
+
+        for (int c = 0; c < a.length; c++) {
+            a[c] = RandomUtil.generatePositiveNegativeValue((int)Math.pow(10,6), (int)Math.pow(-10, 6));
+            b[c] = RandomUtil.generatePositiveNegativeValue((int)Math.pow(10,6), (int)Math.pow(-10, 6));
+        }
+
+        System.out.println(medianOfTwoSortedArrays.solution(a, b));
+    }
     private static void printImageOverlap() {
         Integer[][] a = new Integer[3][3];
         a[0][0] = 1;
@@ -88,5 +106,14 @@ public class Main {
         b[2][2] = 1;
 
         System.out.println(imageOverlap.solution(a, b));
+    }
+    private static void printStrongPasswordChecker() {
+        String password = "1234!ABcd";
+
+        if (strongPasswordChecker.solution(password) == 0) {
+            System.out.println("Password is strong.");
+        } else {
+            System.out.println("Password is weak.");
+        }
     }
 }
