@@ -1,3 +1,4 @@
+import _0006ZigzagConversion._0006ZigzagConversion;
 import _1662CheckIfTwoStringArraysAreEquivalent._1662CheckIfTwoStringArraysAreEquivalent;
 import _0001TwoSum._0001TwoSum;
 import _0002AddTwoNumbers._0002AddTwoNumbers;
@@ -16,6 +17,7 @@ public class Main {
     private static final _0001TwoSum twoSum = new _0001TwoSum();
     private static final _0002AddTwoNumbers addTwoNumbers = new _0002AddTwoNumbers();
     private static final _0004MedianOfTwoSortedArrays medianOfTwoSortedArrays = new _0004MedianOfTwoSortedArrays();
+    private static final _0006ZigzagConversion zigzagConversion = new _0006ZigzagConversion();
     private static final _0420StrongPasswordChecker strongPasswordChecker = new _0420StrongPasswordChecker();
     private static final _0835ImageOverlap imageOverlap = new _0835ImageOverlap();
     private static final _1662CheckIfTwoStringArraysAreEquivalent arrayStringsAreEqual = new _1662CheckIfTwoStringArraysAreEquivalent();
@@ -24,17 +26,18 @@ public class Main {
     public static void main(String[] args) {
 
         long startTime = System.nanoTime();
-        printMedianOfTwoSortedArrays();
+        printZigzagConversion();
         long endTime   = System.nanoTime();
         long totalTime = endTime - startTime;
         System.out.println("Execution time in nanoseconds  : " + totalTime);
         System.out.println("Execution time in milliseconds : " + totalTime / 1000000);
 
-        //printTwoSum();                                                                                                //1
-        //printAddTwoNumbers();                                                                                         //2
-        //printMedianOfTwoSortedArrays();                                                                               //4
-        //printStrongPasswordChecker();                                                                                 //420
-        //printImageOverlap();                                                                                          //835
+        //printTwoSum();                                                                                                //0001
+        //printAddTwoNumbers();                                                                                         //0002
+        //printMedianOfTwoSortedArrays();                                                                               //0004
+        //printZigzagConversion();                                                                                      //0006
+        //printStrongPasswordChecker();                                                                                 //0420
+        //printImageOverlap();                                                                                          //0835
         //printArrayStringsAreEqual();                                                                                  //1662
     }
 
@@ -77,6 +80,11 @@ public class Main {
         }
 
         System.out.println(medianOfTwoSortedArrays.solution(a, b));
+    }
+    private static void printZigzagConversion() {
+        String string = "PAYPALISHIRING";
+        Integer row = 4;
+        System.out.println(zigzagConversion.solution(string, row));
     }
     private static void printImageOverlap() {
         Integer[][] a = new Integer[3][3];
