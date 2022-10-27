@@ -8,22 +8,22 @@ public class _0006ZigzagConversion {
     private final String REGEX_LENGTH = "(\\S){1,1000}";
 
     public String solution(String string, Integer numRows) {
-        StringBuilder stringBuilder = new StringBuilder();
+        StringBuilder output = new StringBuilder();
         if (areConstraintsChecked(string, numRows)) {
             int newIndex = 2 * numRows - 2;
             for (int a = 0; a < numRows; a++) {
                 for (int b = 0; (b + a) < string.length(); b += newIndex) {
-                    stringBuilder.append(string.charAt(b + a));
+                    output.append(string.charAt(b + a));
 
                     if (((b - a + newIndex) < string.length())
                             && (a != 0)
                             && (a != (numRows - 1))) {
-                        stringBuilder.append(string.charAt(b -a + newIndex));
+                        output.append(string.charAt(b -a + newIndex));
                     }
                 }
             }
         }
-        return stringBuilder.toString();
+        return output.toString();
     }
 
     private boolean areConstraintsChecked(String string, Integer numRows) {
