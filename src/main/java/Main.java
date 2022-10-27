@@ -1,4 +1,5 @@
 import _0006ZigzagConversion._0006ZigzagConversion;
+import _0007ReverseInteger._0007ReverseInteger;
 import _1662CheckIfTwoStringArraysAreEquivalent._1662CheckIfTwoStringArraysAreEquivalent;
 import _0001TwoSum._0001TwoSum;
 import _0002AddTwoNumbers._0002AddTwoNumbers;
@@ -18,6 +19,7 @@ public class Main {
     private static final _0002AddTwoNumbers addTwoNumbers = new _0002AddTwoNumbers();
     private static final _0004MedianOfTwoSortedArrays medianOfTwoSortedArrays = new _0004MedianOfTwoSortedArrays();
     private static final _0006ZigzagConversion zigzagConversion = new _0006ZigzagConversion();
+    private static final _0007ReverseInteger reverseInteger = new _0007ReverseInteger();
     private static final _0420StrongPasswordChecker strongPasswordChecker = new _0420StrongPasswordChecker();
     private static final _0835ImageOverlap imageOverlap = new _0835ImageOverlap();
     private static final _1662CheckIfTwoStringArraysAreEquivalent arrayStringsAreEqual = new _1662CheckIfTwoStringArraysAreEquivalent();
@@ -26,7 +28,7 @@ public class Main {
     public static void main(String[] args) {
 
         long startTime = System.nanoTime();
-        printZigzagConversion();
+        printReverseInteger();
         long endTime   = System.nanoTime();
         long totalTime = endTime - startTime;
         System.out.println("Execution time in nanoseconds  : " + totalTime);
@@ -36,6 +38,7 @@ public class Main {
         //printAddTwoNumbers();                                                                                         //0002
         //printMedianOfTwoSortedArrays();                                                                               //0004
         //printZigzagConversion();                                                                                      //0006
+        //printReverseInteger();                                                                                        //0007
         //printStrongPasswordChecker();                                                                                 //0420
         //printImageOverlap();                                                                                          //0835
         //printArrayStringsAreEqual();                                                                                  //1662
@@ -85,6 +88,12 @@ public class Main {
         String string = "PAYPALISHIRING";
         Integer row = 4;
         System.out.println(zigzagConversion.solution(string, row));
+    }
+    private static void printReverseInteger() {
+        int x = 123456789;
+        //int x = 2147483647;
+        //int x = -2147483648;
+        System.out.println(reverseInteger.solution(x));
     }
     private static void printImageOverlap() {
         Integer[][] a = new Integer[3][3];
