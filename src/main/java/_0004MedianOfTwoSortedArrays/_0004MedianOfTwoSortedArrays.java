@@ -5,14 +5,14 @@ import java.util.Arrays;
 public class _0004MedianOfTwoSortedArrays {
 
     public Double solution(Integer[] numbersA, Integer[] numbersB) {
-        if (isConstraintsChecked(numbersA, numbersB)) {
+        if (areConstraintsChecked(numbersA, numbersB)) {
             return getMedian(numbersA, numbersB);
         } else {
             return 0.0;
         }
     }
 
-    private boolean isConstraintsChecked(Integer[] numbersA, Integer[] numbersB) {
+    private boolean areConstraintsChecked(Integer[] numbersA, Integer[] numbersB) {
         return numbersA.length > 0
                 && numbersA.length <= 1000
                 && numbersB.length > 0
