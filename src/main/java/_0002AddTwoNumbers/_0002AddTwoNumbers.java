@@ -3,6 +3,7 @@ package _0002AddTwoNumbers;
 import java.util.ArrayList;
 import java.util.List;
 
+/** @author Daniel Polo 2022 **/
 public class _0002AddTwoNumbers {
     public  List<Integer> solution(List<Integer> listA, List<Integer> listB) {
         if (listA.size() > 99 || listB.size() > 99) {

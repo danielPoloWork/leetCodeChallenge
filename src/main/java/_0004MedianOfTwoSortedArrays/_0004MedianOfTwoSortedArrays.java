@@ -2,6 +2,7 @@ package _0004MedianOfTwoSortedArrays;
 
 import java.util.Arrays;
 
+/** @author Daniel Polo 2022 **/
 public class _0004MedianOfTwoSortedArrays {
 
     public Double solution(Integer[] numbersA, Integer[] numbersB) {

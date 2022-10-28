@@ -3,6 +3,7 @@ package _0420StrongPasswordChecker;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+/** @author Daniel Polo 2022 **/
 public class _0420StrongPasswordChecker {
 
     private final String REGEX_LENGTH   = "(\\S){6,20}";

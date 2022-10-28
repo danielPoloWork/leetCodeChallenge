@@ -7,12 +7,12 @@ import _0420StrongPasswordChecker._0420StrongPasswordChecker;
 import _0004MedianOfTwoSortedArrays._0004MedianOfTwoSortedArrays;
 import _0835ImageOverlap._0835ImageOverlap;
 import utils.RandomUtil;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 
+/** @author Daniel Polo 2022 **/
 public class Main {
 
     private static final _0001TwoSum twoSum = new _0001TwoSum();
@@ -23,7 +23,6 @@ public class Main {
     private static final _0420StrongPasswordChecker strongPasswordChecker = new _0420StrongPasswordChecker();
     private static final _0835ImageOverlap imageOverlap = new _0835ImageOverlap();
     private static final _1662CheckIfTwoStringArraysAreEquivalent arrayStringsAreEqual = new _1662CheckIfTwoStringArraysAreEquivalent();
-
 
     public static void main(String[] args) {
 

@@ -3,6 +3,7 @@ package _0006ZigzagConversion;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+/** @author Daniel Polo 2022 **/
 public class _0006ZigzagConversion {
 
     private final String REGEX_LENGTH = "(\\S){1,1000}";

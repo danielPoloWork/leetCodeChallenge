@@ -2,6 +2,7 @@ package _0001TwoSum;
 
 import java.util.Optional;
 
+/** @author Daniel Polo 2022 **/
 public class _0001TwoSum {
     
     public Optional<Integer[]> solution(Integer[] numbers, Integer target) {

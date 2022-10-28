@@ -3,6 +3,7 @@ package _0007ReverseInteger;
 import java.util.ArrayList;
 import java.util.List;
 
+/** @author Daniel Polo 2022 **/
 public class _0007ReverseInteger {
 
     public Integer solution(Integer x) {

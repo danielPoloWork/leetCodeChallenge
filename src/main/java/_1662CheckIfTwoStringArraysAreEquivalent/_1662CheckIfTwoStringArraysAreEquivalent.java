@@ -2,6 +2,7 @@ package _1662CheckIfTwoStringArraysAreEquivalent;
 
 import java.util.Optional;
 
+/** @author Daniel Polo 2022 **/
 public class _1662CheckIfTwoStringArraysAreEquivalent {
 
     public boolean solution(String[] wordA, String[] wordB) {
