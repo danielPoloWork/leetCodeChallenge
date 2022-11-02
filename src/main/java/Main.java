@@ -1,5 +1,6 @@
 import _0006ZigzagConversion._0006ZigzagConversion;
 import _0007ReverseInteger._0007ReverseInteger;
+import _0433MinimumGeneticMutation._0433MinimumGeneticMutation;
 import _1662CheckIfTwoStringArraysAreEquivalent._1662CheckIfTwoStringArraysAreEquivalent;
 import _0001TwoSum._0001TwoSum;
 import _0002AddTwoNumbers._0002AddTwoNumbers;
@@ -21,26 +22,26 @@ public class Main {
     private static final _0006ZigzagConversion zigzagConversion = new _0006ZigzagConversion();
     private static final _0007ReverseInteger reverseInteger = new _0007ReverseInteger();
     private static final _0420StrongPasswordChecker strongPasswordChecker = new _0420StrongPasswordChecker();
+    private static final _0433MinimumGeneticMutation minimumGeneticMutation = new _0433MinimumGeneticMutation();
     private static final _0835ImageOverlap imageOverlap = new _0835ImageOverlap();
     private static final _1662CheckIfTwoStringArraysAreEquivalent arrayStringsAreEqual = new _1662CheckIfTwoStringArraysAreEquivalent();
 
     public static void main(String[] args) {
 
         long startTime = System.nanoTime();
-        printReverseInteger();
-        long endTime   = System.nanoTime();
-        long totalTime = endTime - startTime;
-        System.out.println("Execution time in nanoseconds  : " + totalTime);
-        System.out.println("Execution time in milliseconds : " + totalTime / 1000000);
-
         //printTwoSum();                                                                                                //0001
         //printAddTwoNumbers();                                                                                         //0002
         //printMedianOfTwoSortedArrays();                                                                               //0004
         //printZigzagConversion();                                                                                      //0006
         //printReverseInteger();                                                                                        //0007
         //printStrongPasswordChecker();                                                                                 //0420
+        printMinimumGeneticMutation();                                                                                //0433
         //printImageOverlap();                                                                                          //0835
         //printArrayStringsAreEqual();                                                                                  //1662
+        long endTime   = System.nanoTime();
+        long totalTime = endTime - startTime;
+        System.out.println("Execution time in nanoseconds  : " + totalTime);
+        System.out.println("Execution time in milliseconds : " + totalTime / 1000000);
     }
 
     private static void printTwoSum() {
@@ -48,11 +49,6 @@ public class Main {
         Integer target = 29;
         Optional<Integer[]> result = twoSum.solution(numbers, target);
         System.out.println(result.isEmpty() ? "no match" : Arrays.toString(result.get()));
-    }
-    private static void printArrayStringsAreEqual() {
-        String[] a = {"abc", "d", "defg"};
-        String[] b = {"abcddefg"};
-        System.out.println(arrayStringsAreEqual.solution(a, b));
     }
     private static void printAddTwoNumbers() {
         List<Integer> a = new ArrayList<>();
@@ -94,6 +90,22 @@ public class Main {
         //int x = -2147483648;
         System.out.println(reverseInteger.solution(x));
     }
+    private static void printStrongPasswordChecker() {
+        String password = "1234!ABcd";
+
+        if (strongPasswordChecker.solution(password) == 0) {
+            System.out.println("Password is strong.");
+        } else {
+            System.out.println("Password is weak.");
+        }
+    }
+    private static void printMinimumGeneticMutation() {
+        String start  = "AACCGGTT";
+        String end    = "AAACGGTA";
+        String[] bank = {"AACCGGTA","AACCGCTA","AAACGGTA"};
+
+        System.out.println(minimumGeneticMutation.solution(start, end, bank));
+    }
     private static void printImageOverlap() {
         Integer[][] a = new Integer[3][3];
         a[0][0] = 1;
@@ -123,13 +135,9 @@ public class Main {
 
         System.out.println(imageOverlap.solution(a, b));
     }
-    private static void printStrongPasswordChecker() {
-        String password = "1234!ABcd";
-
-        if (strongPasswordChecker.solution(password) == 0) {
-            System.out.println("Password is strong.");
-        } else {
-            System.out.println("Password is weak.");
-        }
+    private static void printArrayStringsAreEqual() {
+        String[] a = {"abc", "d", "defg"};
+        String[] b = {"abcddefg"};
+        System.out.println(arrayStringsAreEqual.solution(a, b));
     }
 }
