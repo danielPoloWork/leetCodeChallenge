@@ -1,12 +1,14 @@
 import _0006ZigzagConversion._0006ZigzagConversion;
 import _0007ReverseInteger._0007ReverseInteger;
 import _0433MinimumGeneticMutation._0433MinimumGeneticMutation;
+import _0899OrderlyQueue._0899OrderlyQueue;
 import _1662CheckIfTwoStringArraysAreEquivalent._1662CheckIfTwoStringArraysAreEquivalent;
 import _0001TwoSum._0001TwoSum;
 import _0002AddTwoNumbers._0002AddTwoNumbers;
 import _0420StrongPasswordChecker._0420StrongPasswordChecker;
 import _0004MedianOfTwoSortedArrays._0004MedianOfTwoSortedArrays;
 import _0835ImageOverlap._0835ImageOverlap;
+import exceptions.ConstraintsException;
 import utils.RandomUtil;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -24,9 +26,10 @@ public class Main {
     private static final _0420StrongPasswordChecker strongPasswordChecker = new _0420StrongPasswordChecker();
     private static final _0433MinimumGeneticMutation minimumGeneticMutation = new _0433MinimumGeneticMutation();
     private static final _0835ImageOverlap imageOverlap = new _0835ImageOverlap();
+    private static final _0899OrderlyQueue orderlyQueue = new _0899OrderlyQueue();
     private static final _1662CheckIfTwoStringArraysAreEquivalent arrayStringsAreEqual = new _1662CheckIfTwoStringArraysAreEquivalent();
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ConstraintsException {
 
         long startTime = System.nanoTime();
         //printTwoSum();                                                                                                //0001
@@ -35,8 +38,9 @@ public class Main {
         //printZigzagConversion();                                                                                      //0006
         //printReverseInteger();                                                                                        //0007
         //printStrongPasswordChecker();                                                                                 //0420
-        printMinimumGeneticMutation();                                                                                //0433
+        //printMinimumGeneticMutation();                                                                                //0433
         //printImageOverlap();                                                                                          //0835
+        printOrderlyQueue();                                                                                            //0899
         //printArrayStringsAreEqual();                                                                                  //1662
         long endTime   = System.nanoTime();
         long totalTime = endTime - startTime;
@@ -134,6 +138,10 @@ public class Main {
         b[2][2] = 1;
 
         System.out.println(imageOverlap.solution(a, b));
+    }
+    private static void printOrderlyQueue() throws ConstraintsException {
+        //System.out.println(orderlyQueue.solution("cba", 1));
+        System.out.println(orderlyQueue.solution("baaca", 3));
     }
     private static void printArrayStringsAreEqual() {
         String[] a = {"abc", "d", "defg"};
