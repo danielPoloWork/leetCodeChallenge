@@ -26,7 +26,6 @@ public class Main {
     private static final _0420StrongPasswordChecker strongPasswordChecker = new _0420StrongPasswordChecker();
     private static final _0433MinimumGeneticMutation minimumGeneticMutation = new _0433MinimumGeneticMutation();
     private static final _0835ImageOverlap imageOverlap = new _0835ImageOverlap();
-    private static final _0899OrderlyQueue orderlyQueue = new _0899OrderlyQueue();
     private static final _1662CheckIfTwoStringArraysAreEquivalent arrayStringsAreEqual = new _1662CheckIfTwoStringArraysAreEquivalent();
 
     public static void main(String[] args) throws ConstraintsException {
@@ -40,7 +39,6 @@ public class Main {
         //printStrongPasswordChecker();                                                                                 //0420
         //printMinimumGeneticMutation();                                                                                //0433
         //printImageOverlap();                                                                                          //0835
-        printOrderlyQueue();                                                                                            //0899
         //printArrayStringsAreEqual();                                                                                  //1662
         long endTime   = System.nanoTime();
         long totalTime = endTime - startTime;
@@ -138,10 +136,6 @@ public class Main {
         b[2][2] = 1;
 
         System.out.println(imageOverlap.solution(a, b));
-    }
-    private static void printOrderlyQueue() throws ConstraintsException {
-        //System.out.println(orderlyQueue.solution("cba", 1));
-        System.out.println(orderlyQueue.solution("baaca", 3));
     }
     private static void printArrayStringsAreEqual() {
         String[] a = {"abc", "d", "defg"};
