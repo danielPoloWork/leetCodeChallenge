@@ -1,17 +1,20 @@
-# Description
+# #176. Second Highest Salary
+Click [**here**](https://leetcode.com/problems/second-highest-salary/) to visit page.
 
-## SQL Schema
-CREATE TABLE IF NOT EXISTS Employee (id INT, salary INT)
+## Description
 
-TRUNCATE TABLE Employee
+### SQL Schema
+Create table If Not Exists Employee (id int, salary int)
 
-INSERT INTO Employee (id, salary) VALUES ('1', '100')
+Truncate table Employee
 
-INSERT INTO Employee (id, salary) VALUES ('2', '200')
+insert into Employee (id, salary) values ('1', '100')
 
-INSERT INTO Employee (id, salary) VALUES ('3', '300')
+insert into Employee (id, salary) values ('2', '200')
 
-**Table:** Employee
+insert into Employee (id, salary) values ('3', '300')
+
+**Table:** ```Employee```
 ```
 +-------------+------+
 | Column Name | Type |
@@ -20,15 +23,16 @@ INSERT INTO Employee (id, salary) VALUES ('3', '300')
 | salary      | int  |
 +-------------+------+
 ```
-id is the primary key column for this table.
-Each row of this table contains information about the salary of an employee.
+- ```id``` is the primary key column for this table.
+- Each row of this table contains information about the ```salary``` of an employee.
 
-Write an SQL query to report the second highest salary from the Employee table. If there is no second highest salary, the query should report null.
+Write an SQL query to report the second-highest salary from the ```Employee``` table. If there is no second-highest 
+```salary```, the query should report ```null```.
 
 The query result format is in the following example.
 
 **Example 1:**
-- Employee table:
+- ```Employee``` table:
     ```
     +----+--------+
     | id | salary |
@@ -48,7 +52,7 @@ The query result format is in the following example.
     ```
 
 **Example 2:**
-- Employee table:
+- ```Employee``` table:
     ```
     +----+--------+
     | id | salary |
