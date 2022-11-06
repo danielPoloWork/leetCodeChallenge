@@ -1,4 +1,4 @@
-package _0835ImageOverlap;
+package allTopics.algorithms._0835ImageOverlap;
 
 /** @author Daniel Polo 2022 **/
 public class _0835ImageOverlap {

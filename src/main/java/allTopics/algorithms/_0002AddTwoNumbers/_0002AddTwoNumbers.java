@@ -1,4 +1,4 @@
-package _0002AddTwoNumbers;
+package allTopics.algorithms._0002AddTwoNumbers;
 
 import java.util.ArrayList;
 import java.util.List;

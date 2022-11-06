@@ -1,4 +1,4 @@
-package _1662CheckIfTwoStringArraysAreEquivalent;
+package allTopics.algorithms._1662CheckIfTwoStringArraysAreEquivalent;
 
 import java.util.Optional;
 

@@ -1,4 +1,4 @@
-package _0433MinimumGeneticMutation;
+package allTopics.algorithms._0433MinimumGeneticMutation;
 
 import java.util.Objects;
 

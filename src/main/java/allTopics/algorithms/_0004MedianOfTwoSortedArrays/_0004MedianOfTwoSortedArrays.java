@@ -1,4 +1,4 @@
-package _0004MedianOfTwoSortedArrays;
+package allTopics.algorithms._0004MedianOfTwoSortedArrays;
 
 import java.util.Arrays;
 

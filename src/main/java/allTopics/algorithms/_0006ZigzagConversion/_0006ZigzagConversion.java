@@ -1,4 +1,4 @@
-package _0006ZigzagConversion;
+package allTopics.algorithms._0006ZigzagConversion;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

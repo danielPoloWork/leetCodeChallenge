@@ -1,4 +1,4 @@
-package _0001TwoSum;
+package allTopics.algorithms._0001TwoSum;
 
 import java.util.Optional;
 

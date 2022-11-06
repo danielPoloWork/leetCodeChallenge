@@ -1,4 +1,4 @@
-package _0007ReverseInteger;
+package allTopics.algorithms._0007ReverseInteger;
 
 import java.util.ArrayList;
 import java.util.List;

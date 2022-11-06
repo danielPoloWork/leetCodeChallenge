@@ -1,4 +1,4 @@
-package _0420StrongPasswordChecker;
+package allTopics.algorithms._0420StrongPasswordChecker;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
