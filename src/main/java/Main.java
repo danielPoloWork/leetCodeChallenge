@@ -1,14 +1,16 @@
-import allTopics.algorithms._0006ZigzagConversion._0006ZigzagConversion;
-import allTopics.algorithms._0007ReverseInteger._0007ReverseInteger;
-import allTopics.algorithms._0433MinimumGeneticMutation._0433MinimumGeneticMutation;
-import allTopics.algorithms._1662CheckIfTwoStringArraysAreEquivalent._1662CheckIfTwoStringArraysAreEquivalent;
 import allTopics.algorithms._0001TwoSum._0001TwoSum;
 import allTopics.algorithms._0002AddTwoNumbers._0002AddTwoNumbers;
-import allTopics.algorithms._0420StrongPasswordChecker._0420StrongPasswordChecker;
 import allTopics.algorithms._0004MedianOfTwoSortedArrays._0004MedianOfTwoSortedArrays;
+import allTopics.algorithms._0006ZigzagConversion._0006ZigzagConversion;
+import allTopics.algorithms._0007ReverseInteger._0007ReverseInteger;
+import allTopics.algorithms._0223RectangleArea._0223RectangleArea;
+import allTopics.algorithms._0420StrongPasswordChecker._0420StrongPasswordChecker;
+import allTopics.algorithms._0433MinimumGeneticMutation._0433MinimumGeneticMutation;
 import allTopics.algorithms._0835ImageOverlap._0835ImageOverlap;
+import allTopics.algorithms._1662CheckIfTwoStringArraysAreEquivalent._1662CheckIfTwoStringArraysAreEquivalent;
 import exceptions.ConstraintsException;
 import utils.RandomUtil;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -22,19 +24,20 @@ public class Main {
     private static final _0004MedianOfTwoSortedArrays medianOfTwoSortedArrays = new _0004MedianOfTwoSortedArrays();
     private static final _0006ZigzagConversion zigzagConversion = new _0006ZigzagConversion();
     private static final _0007ReverseInteger reverseInteger = new _0007ReverseInteger();
+    private static final _0223RectangleArea rectangleArea = new _0223RectangleArea();
     private static final _0420StrongPasswordChecker strongPasswordChecker = new _0420StrongPasswordChecker();
     private static final _0433MinimumGeneticMutation minimumGeneticMutation = new _0433MinimumGeneticMutation();
     private static final _0835ImageOverlap imageOverlap = new _0835ImageOverlap();
     private static final _1662CheckIfTwoStringArraysAreEquivalent arrayStringsAreEqual = new _1662CheckIfTwoStringArraysAreEquivalent();
 
     public static void main(String[] args) throws ConstraintsException {
-
         long startTime = System.nanoTime();
         //printTwoSum();                                                                                                //0001
         //printAddTwoNumbers();                                                                                         //0002
         //printMedianOfTwoSortedArrays();                                                                               //0004
         //printZigzagConversion();                                                                                      //0006
         //printReverseInteger();                                                                                        //0007
+        printRectangleArea();                                                                                         //0223
         //printStrongPasswordChecker();                                                                                 //0420
         //printMinimumGeneticMutation();                                                                                //0433
         //printImageOverlap();                                                                                          //0835
@@ -90,6 +93,17 @@ public class Main {
         //int x = 2147483647;
         //int x = -2147483648;
         System.out.println(reverseInteger.solution(x));
+    }
+    private static void printRectangleArea() throws ConstraintsException {
+        int ax1 = -3,
+                ay1 = 0,
+                ax2 = 3,
+                ay2 = 4,
+                bx1 = 0,
+                by1 = -1,
+                bx2 = 9,
+                by2 = 2;
+        System.out.println(rectangleArea.solution(ax1, ay1, ax2, ay2, bx1, by1, bx2, by2));
     }
     private static void printStrongPasswordChecker() {
         String password = "1234!ABcd";
