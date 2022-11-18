@@ -18,7 +18,7 @@ The second rectangle is defined by its bottom-left corner ```bx1, by1``` and its
 - Output: ```16```
 
 ## Constraints:
-- ```-104 <= ax1 <= ax2 <= 104```
-- ```-104 <= ay1 <= ay2 <= 104```
-- ```-104 <= bx1 <= bx2 <= 104```
-- ```-104 <= by1 <= by2 <= 104```
+- -10<sup>4</sup> <= ax1 <= ax2 <= 10<sup>4</sup>
+- -10<sup>4</sup> <= ay1 <= ay2 <= 10<sup>4</sup>
+- -10<sup>4</sup> <= bx1 <= bx2 <= 10<sup>4</sup>
+- -10<sup>4</sup> <= by1 <= by2 <= 10<sup>4</sup>
