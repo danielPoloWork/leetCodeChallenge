@@ -31,6 +31,8 @@ public class _0223RectangleArea {
     }
 
     private boolean checkConstraints(int pos1, int pos2) {
-        return (-104 <= pos1) && (pos1 <= pos2) && (pos2 <= 104);
+        return (-Math.pow(10, 4) <= pos1)
+                && (pos1 <= pos2)
+                && (pos2 <= Math.pow(10, 4));
     }
 }
