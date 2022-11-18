@@ -4,6 +4,7 @@ import allTopics.algorithms._0004MedianOfTwoSortedArrays._0004MedianOfTwoSortedA
 import allTopics.algorithms._0006ZigzagConversion._0006ZigzagConversion;
 import allTopics.algorithms._0007ReverseInteger._0007ReverseInteger;
 import allTopics.algorithms._0223RectangleArea._0223RectangleArea;
+import allTopics.algorithms._0263UglyNumber._0263UglyNumber;
 import allTopics.algorithms._0420StrongPasswordChecker._0420StrongPasswordChecker;
 import allTopics.algorithms._0433MinimumGeneticMutation._0433MinimumGeneticMutation;
 import allTopics.algorithms._0835ImageOverlap._0835ImageOverlap;
@@ -25,6 +26,7 @@ public class Main {
     private static final _0006ZigzagConversion zigzagConversion = new _0006ZigzagConversion();
     private static final _0007ReverseInteger reverseInteger = new _0007ReverseInteger();
     private static final _0223RectangleArea rectangleArea = new _0223RectangleArea();
+    private static final _0263UglyNumber uglyNumber = new _0263UglyNumber();
     private static final _0420StrongPasswordChecker strongPasswordChecker = new _0420StrongPasswordChecker();
     private static final _0433MinimumGeneticMutation minimumGeneticMutation = new _0433MinimumGeneticMutation();
     private static final _0835ImageOverlap imageOverlap = new _0835ImageOverlap();
@@ -32,16 +34,17 @@ public class Main {
 
     public static void main(String[] args) throws ConstraintsException {
         long startTime = System.nanoTime();
-        //printTwoSum();                                                                                                //0001
-        //printAddTwoNumbers();                                                                                         //0002
-        //printMedianOfTwoSortedArrays();                                                                               //0004
-        //printZigzagConversion();                                                                                      //0006
-        //printReverseInteger();                                                                                        //0007
-        printRectangleArea();                                                                                         //0223
-        //printStrongPasswordChecker();                                                                                 //0420
-        //printMinimumGeneticMutation();                                                                                //0433
-        //printImageOverlap();                                                                                          //0835
-        //printArrayStringsAreEqual();                                                                                  //1662
+//        printTwoSum();                                                                                                //0001
+//        printAddTwoNumbers();                                                                                         //0002
+//        printMedianOfTwoSortedArrays();                                                                               //0004
+//        printZigzagConversion();                                                                                      //0006
+//        printReverseInteger();                                                                                        //0007
+//        printRectangleArea();                                                                                         //0223
+//        printUglyNumber();                                                                                            //0263
+//        printStrongPasswordChecker();                                                                                 //0420
+//        printMinimumGeneticMutation();                                                                                //0433
+//        printImageOverlap();                                                                                          //0835
+//        printArrayStringsAreEqual();                                                                                  //1662
         long endTime   = System.nanoTime();
         long totalTime = endTime - startTime;
         System.out.println("Execution time in nanoseconds  : " + totalTime);
@@ -104,6 +107,12 @@ public class Main {
                 bx2 = 9,
                 by2 = 2;
         System.out.println(rectangleArea.solution(ax1, ay1, ax2, ay2, bx1, by1, bx2, by2));
+    }
+    private static void printUglyNumber() throws ConstraintsException {
+        int number = 6;
+//        int number = 1;
+//        int number = 14;
+        System.out.println(uglyNumber.solution(number));
     }
     private static void printStrongPasswordChecker() {
         String password = "1234!ABcd";
