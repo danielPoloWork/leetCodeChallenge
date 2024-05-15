@@ -6,9 +6,11 @@ In this public repository you may find some solutions I approached to LeetCode c
 golden standard for technical interviews. LeetCode problems are widely used during technical interviews at companies 
 like Amazon, Apple, Cisco, Facebook, Google, Hulu, Intel, Jet, Leap Motion, Stripe, Uber.
 
----
-
 ## Java
+In this category, you will find various algorithms implemented in Java. These algorithms solve specific problems and are
+often used as challenges during coding interviews. By studying these solutions, you can gain a deeper understanding of
+how to use PHP to solve complex programming problems.
+
 ### Algorithms
 - #1 Two sum: [class](src/main/java/allTopics/algorithms/_0001TwoSum/_0001TwoSum.java), 
   [description](src/main/java/allTopics/algorithms/_0001TwoSum/description.md)
@@ -50,8 +52,11 @@ like Amazon, Apple, Cisco, Facebook, Google, Hulu, Intel, Jet, Leap Motion, Stri
 
 ### Shell
 
----
-
 ## Php
+In this category, you will find various algorithms implemented in PHP. These algorithms solve specific problems and are 
+often used as challenges during coding interviews. By studying these solutions, you can gain a deeper understanding of 
+how to use PHP to solve complex programming problems.
+
+### Algorithms
 - #1 Two sum: [code](php%2F00001_two_sum%2FSolution.php), [solution](php%2F00001_two_sum%2FREADME.md)
 - #2812 Find the safest path in a grid: [code](php%2F02812_find_the_safest_path_in_a_grid%2FSolution.php), [solution](php%2F02812_find_the_safest_path_in_a_grid%2FREADME.md)
