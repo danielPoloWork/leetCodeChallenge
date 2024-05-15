@@ -6,7 +6,16 @@ In this public repository you may find some solutions I approached to LeetCode c
 golden standard for technical interviews. LeetCode problems are widely used during technical interviews at companies 
 like Amazon, Apple, Cisco, Facebook, Google, Hulu, Intel, Jet, Leap Motion, Stripe, Uber.
 
-## C++
+Languages:
+- [C++](#cpp)
+- [Java](#java)
+- [Javascript](#js)
+- [Php](#php)
+- [Python](#py)
+- [Rust](#rs)
+- [Typescript](#ts)
+
+## <a id="cpp"></a> C++
 In this category, you will find various algorithms implemented in C++. These algorithms solve specific problems and are
 often used as challenges during coding interviews. By studying these solutions, you can gain a deeper understanding of
 how to use C++ to solve complex programming problems.
@@ -15,7 +24,7 @@ how to use C++ to solve complex programming problems.
 ### Database
 ### Shell
 
-## Java
+## <a id="java"></a> Java
 In this category, you will find various algorithms implemented in Java. These algorithms solve specific problems and are
 often used as challenges during coding interviews. By studying these solutions, you can gain a deeper understanding of
 how to use Java to solve complex programming problems.
@@ -24,7 +33,7 @@ how to use Java to solve complex programming problems.
 ### Database
 ### Shell
 
-## javascript
+## <a id="js"></a> Javascript
 In this category, you will find various algorithms implemented in JS. These algorithms solve specific problems and are
 often used as challenges during coding interviews. By studying these solutions, you can gain a deeper understanding of
 how to use JS to solve complex programming problems.
@@ -33,7 +42,7 @@ how to use JS to solve complex programming problems.
 ### Database
 ### Shell
 
-## Php
+## <a id="php"></a> Php
 In this category, you will find various algorithms implemented in PHP. These algorithms solve specific problems and are 
 often used as challenges during coding interviews. By studying these solutions, you can gain a deeper understanding of 
 how to use PHP to solve complex programming problems.
@@ -44,7 +53,7 @@ how to use PHP to solve complex programming problems.
 ### Database
 ### Shell
 
-## Python
+## <a id="py"></a> Python
 In this category, you will find various algorithms implemented in Python. These algorithms solve specific problems and 
 are often used as challenges during coding interviews. By studying these solutions, you can gain a deeper understanding 
 of how to use Python to solve complex programming problems.
@@ -53,7 +62,7 @@ of how to use Python to solve complex programming problems.
 ### Database
 ### Shell
 
-## Rust
+## <a id="rs"></a> Rust
 In this category, you will find various algorithms implemented in Rust. These algorithms solve specific problems and are 
 often used as challenges during coding interviews. By studying these solutions, you can gain a deeper understanding of
 how to use Rust to solve complex programming problems.
@@ -62,7 +71,7 @@ how to use Rust to solve complex programming problems.
 ### Database
 ### Shell
 
-## Typescript
+## <a id="ts"></a> Typescript
 In this category, you will find various algorithms implemented in TS. These algorithms solve specific problems and are 
 often used as challenges during coding interviews. By studying these solutions, you can gain a deeper understanding of 
 how to use TS to solve complex programming problems.
