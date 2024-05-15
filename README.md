@@ -1,12 +1,15 @@
 # LEET CODE CHALLANGE
-[LeetCode](https://leetcode.com/) is one of the best platforms to help us enhance our skills, expand our knowledge and 
+[LeetCode](https://leetcode.com/) is one of te best platforms to help us enhance our skills, expand our knowledge and 
 prepare for technical interviews.
 
 In this public repository you may find some solutions I approached to LeetCode challenge problems. LeetCode is the 
 golden standard for technical interviews. LeetCode problems are widely used during technical interviews at companies 
 like Amazon, Apple, Cisco, Facebook, Google, Hulu, Intel, Jet, Leap Motion, Stripe, Uber.
 
-## Algorithms
+---
+
+## Java
+### Algorithms
 - #1 Two sum: [class](src/main/java/allTopics/algorithms/_0001TwoSum/_0001TwoSum.java), 
   [description](src/main/java/allTopics/algorithms/_0001TwoSum/description.md)
 - #2 Add two numbers: [class](src/main/java/allTopics/algorithms/_0002AddTwoNumbers/_0002AddTwoNumbers.java),
@@ -30,8 +33,8 @@ like Amazon, Apple, Cisco, Facebook, Google, Hulu, Intel, Jet, Leap Motion, Stri
 - #1662 Check if two string arrays are equivalent: [class](src/main/java/allTopics/algorithms/_1662CheckIfTwoStringArraysAreEquivalent/_1662CheckIfTwoStringArraysAreEquivalent.java),
   [description](src/main/java/allTopics/algorithms/_1662CheckIfTwoStringArraysAreEquivalent/description.md)
 
-## Concurrency
-## Database
+### Concurrency
+### Database
 - #175 Combine two tables: [sql](src/main/java/allTopics/database/_0175CombineTwoTables/_0175CombineTwoTables.sql),
   [description](src/main/java/allTopics/database/_0175CombineTwoTables/description.md)
 - #176 Second-highest salary: [sql](src/main/java/allTopics/database/_0176SecondHighestSalary/_0176SecondHighestSalary.sql),
@@ -44,4 +47,11 @@ like Amazon, Apple, Cisco, Facebook, Google, Hulu, Intel, Jet, Leap Motion, Stri
   [description](src/main/java/allTopics/database/_1741FindTotalTimeSpentByEachEmployee/description.md)
 - #1757 Recyclable and low fat products: [sql](src/main/java/allTopics/database/_1757RecyclableAndLowFatProducts/_1757RecyclableAndLowFatProducts.sql),
   [description](src/main/java/allTopics/database/_1757RecyclableAndLowFatProducts/description.md)
-## Shell
+
+### Shell
+
+---
+
+## Php
+- #1 Two sum: [code](php%2F00001_two_sum%2FSolution.php), [solution](php%2F00001_two_sum%2FREADME.md)
+- #2812 Find the safest path in a grid: [code](php%2F02812_find_the_safest_path_in_a_grid%2FSolution.php), [solution](php%2F02812_find_the_safest_path_in_a_grid%2FREADME.md)
