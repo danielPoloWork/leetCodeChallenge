@@ -22,6 +22,8 @@ often used as challenges during coding interviews. By studying these solutions, 
 how to use Bash to solve complex programming problems.
 
 - #192 Word frequency: [code](bash%2F00192_word_frequency%2FSolution.sh), [solution](bash%2F00192_word_frequency%2FREADME.md)
+- #193 Valid phone numbers: [code](bash%2F00192_word_frequency%2FSolution.sh), [solution](bash%2F00192_word_frequency%2FREADME.md)
+
 
 ## <a id="cpp"></a> C++
 In this category, you will find various algorithms implemented in C++. These algorithms solve specific problems and are
