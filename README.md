@@ -48,6 +48,7 @@ often used as challenges during coding interviews. By studying these solutions, 
 how to use PHP to solve complex programming problems.
 ### Algorithms
 - #1 Two sum: [code](php%2F00001_two_sum%2FSolution.php), [solution](php%2F00001_two_sum%2FREADME.md)
+- #2331 Evaluate boolean binary tree: [code](php%2F02331_evaluate_boolean_binary_tree%2FSolution.php), [solution](php%2F02331_evaluate_boolean_binary_tree%2FREADME.md)
 - #2812 Find the safest path in a grid: [code](php%2F02812_find_the_safest_path_in_a_grid%2FSolution.php), [solution](php%2F02812_find_the_safest_path_in_a_grid%2FREADME.md)
 ### Concurrency
 ### Database
