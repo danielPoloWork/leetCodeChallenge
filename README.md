@@ -24,6 +24,7 @@ how to use Bash to solve complex programming problems.
 - #192 Word frequency: [code](bash%2F00192_word_frequency%2FSolution.sh), [solution](bash%2F00192_word_frequency%2FREADME.md)
 - #193 Valid phone numbers: [code](bash%2F00192_word_frequency%2FSolution.sh), [solution](bash%2F00192_word_frequency%2FREADME.md)
 - #194 Transpose file: [code](bash%2F00194_transpose_file%2FSolution.sh), [solution](bash%2F00194_transpose_file%2FREADME.md)
+- #195 Tenth line: [code](bash%2F00195_tenth_line%2FSolution.sh), [solution](bash%2F00195_tenth_line%2FREADME.md)
 
 ## <a id="cpp"></a> C++
 In this category, you will find various algorithms implemented in C++. These algorithms solve specific problems and are
