@@ -14,6 +14,7 @@ Languages:
 - [Php](#php)
 - [Python](#py)
 - [Rust](#rs)
+- [Sql](#sql)
 - [Typescript](#ts)
 
 ## <a id="sh"></a> Bash
@@ -65,6 +66,10 @@ In this category, you will find various algorithms implemented in Rust. These al
 often used as challenges during coding interviews. By studying these solutions, you can gain a deeper understanding of
 how to use Rust to solve complex programming problems.
 
+## <a id="sql"></a> Sql
+In this category, you will find various algorithms implemented in SQL. These algorithms solve specific problems and are
+often used as challenges during coding interviews. By studying these solutions, you can gain a deeper understanding of
+how to use SQL to solve complex programming problems.
 
 ## <a id="ts"></a> Typescript
 In this category, you will find various algorithms implemented in TS. These algorithms solve specific problems and are 
