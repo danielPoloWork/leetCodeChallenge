@@ -38,15 +38,6 @@ elements in the input.
 ```php
 class Solution {
 
-     /**
-     * Finds two numbers in an array that add up to a target value.
-     *
-     * @param Integer[] $nums An array of integers.
-     * @param Integer $target The target value the two numbers should add up to.
-     *
-     * @return Integer[] The indices of the two numbers that add up to the target value.
-     * @throws Exception
-     */
     function twoSum(array $nums, int $target): array {
         $output = [];
 

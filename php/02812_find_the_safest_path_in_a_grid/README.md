@@ -37,17 +37,12 @@ The space complexity is O(n^2), this is primarily due to the space required for 
 ## Code
 ```php
 class Solution {
-    /**
-     * @param Integer[][] $grids
-     * @return Integer
-     */
+  
     function maximumSafenessFactor(array $grids): int {
         $output = 0;
         try {
-            // Total number of grids.
             $totalGrids = count($grids);
 
-            // Represents all four directional up, down, left and right.
             $directions = [[0, 1], [0, -1], [1, 0], [-1, 0]];
 
             $distanceArray = [];
@@ -57,7 +52,6 @@ class Solution {
                 }
             }
 
-            // Queue to hold the grids.
             $queue = new SplQueue();
             for ($gridRow = 0; $gridRow < $totalGrids; ++$gridRow) {
                 for ($gridColumn = 0; $gridColumn < $totalGrids; ++$gridColumn) {
@@ -67,7 +61,6 @@ class Solution {
                 }
             }
 
-            // Calculate the shortest distance from land to water.
             while (!$queue->isEmpty()) {
                 list($row, $column) = $queue->dequeue();
                 foreach ($directions as $direction) {
@@ -82,7 +75,6 @@ class Solution {
                 }
             }
 
-            // Binary search to find maximum distance.
             $low = 0;
             $high = 2 * $totalGrids;
             while ($low <= $high) {
@@ -92,7 +84,6 @@ class Solution {
                     continue;
                 }
 
-                // Two dimensional array for tracking visited nodes.
                 $visitTrack = [];
                 for ($gridRow = 0; $gridRow < $totalGrids; ++$gridRow) {
                     for ($gridColumn = 0; $gridColumn < $totalGrids; ++$gridColumn) {
@@ -100,7 +91,6 @@ class Solution {
                     }
                 }
 
-                // Adding reachable nodes into the queue and checking end condition.
                 $queue = new SplQueue();
                 $queue->push([$distanceArray[0][0], 0, 0]);
                 $visitTrack[0][0] = true;
@@ -122,7 +112,6 @@ class Solution {
                 $high = $mid - 1;
             }
 
-            // Resultant maximum safeness factor for the grids.
             $output = $high;
         } catch (Throwable $exception) {
             print_r("Caught exception:  {$exception->getMessage()} \n");
