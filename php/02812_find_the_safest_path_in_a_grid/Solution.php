@@ -106,8 +106,8 @@ class Solution {
 
             // Resultant maximum safeness factor for the grids.
             $output = $high;
-        } catch (Throwable $exception) {
-            print_r("Caught exception:  {$exception->getMessage()} \n");
+        } catch (Throwable $t) {
+            print_r("Caught exception:  {$t->getMessage()} \n");
         }
         return $output;
     }

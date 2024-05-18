@@ -21,9 +21,9 @@ class Solution {
         try {
             /** Call the recursive function to process the tree and collect the modified tree node */
             $output = $this->removeTargetLeaves($root, $target);
-        } catch (Exception $exception) {
+        } catch (Throwable $t) {
             /** Log any exception that happens during the execution */
-            error_log("Caught exception: {$exception->getMessage()} \n");
+            print_r("Caught exception:  {$t->getMessage()} \n");
         }
         /** Return the modified tree node, or null if exception happened */
         return $output;
