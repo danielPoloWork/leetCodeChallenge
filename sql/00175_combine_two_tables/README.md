@@ -1,4 +1,4 @@
-# 175. Combine two tbles
+# 175. Combine two tables
 #Description at [leetcode.com](https://leetcode.com/problems/combine-two-tables/description/)
 
 ## Intuition
