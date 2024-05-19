@@ -76,6 +76,7 @@ how to use SQL to solve complex programming problems.
 
 - #175 Combine two tables: [code](sql%2F00175_combine_two_tables%2FSolution.sql), [solution](sql%2F00175_combine_two_tables%2FREADME.md)
 - #176 Second highest salary: [code](sql%2F00176_second_highest_salary%2FSolution.sql), [solution](sql%2F00176_second_highest_salary%2FREADME.md)
+- #177 Nth highes salary: [code](sql%2F00177_nth_highest_salary%2FSolution.sql), [solution](sql%2F00177_nth_highest_salary%2FREADME.md)
 
 ## <a id="ts"></a> Typescript
 In this category, you will find various algorithms implemented in TS. These algorithms solve specific problems and are 
