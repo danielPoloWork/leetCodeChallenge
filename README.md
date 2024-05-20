@@ -2,6 +2,11 @@
 [LeetCode](https://leetcode.com/) is one of te best platforms to help us enhance our skills, expand our knowledge and 
 prepare for technical interviews.
 
+Session 0 (Active)
+- Current Points: 650
+- Accepted submissions: 115
+- Total submissions: 172
+
 In this public repository you may find some solutions I approached to LeetCode challenge problems. LeetCode is the 
 golden standard for technical interviews. LeetCode problems are widely used during technical interviews at companies 
 like Amazon, Apple, Cisco, Facebook, Google, Hulu, Intel, Jet, Leap Motion, Stripe, Uber.
