@@ -54,6 +54,7 @@ how to use PHP to solve complex programming problems.
 - #420 Strong password checker: [code](php%2F00420_strong_password_checker%2FSolution.php), [solution](php%2F00420_strong_password_checker%2FREADME.md)
 - #979 Distribute coins in binary tree: [code](php%2F00979_distribute_coins_in_binary_tree%2FSolution.php), [solution](php%2F00979_distribute_coins_in_binary_tree%2FREADME.md)
 - #1325 Delete leaves with a given value: [code](php%2F01325_delete_leaves_with_a_given_value%2FSolution.php), [solution](php%2F01325_delete_leaves_with_a_given_value%2FREADME.md)
+- #1863 Sum of all subset XOR totals: [code](php%2F01863_sum_of_all_subset_XOR_totals%2FSolution.php), [solution](php%2F01863_sum_of_all_subset_XOR_totals%2FREADME.md)
 - #2331 Evaluate boolean binary tree: [code](php%2F02331_evaluate_boolean_binary_tree%2FSolution.php), [solution](php%2F02331_evaluate_boolean_binary_tree%2FREADME.md)
 - #2812 Find the safest path in a grid: [code](php%2F02812_find_the_safest_path_in_a_grid%2FSolution.php), [solution](php%2F02812_find_the_safest_path_in_a_grid%2FREADME.md)
 - #3068 Find the maximum sum of node values: [code](php%2F03068_find_the_maximum_sum_of_node_values%2FSolution.php), [solution](php%2F03068_find_the_maximum_sum_of_node_values%2FREADME.md)
