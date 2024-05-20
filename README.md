@@ -66,6 +66,7 @@ In this category, you will find various algorithms implemented in Python. These 
 are often used as challenges during coding interviews. By studying these solutions, you can gain a deeper understanding 
 of how to use Python to solve complex programming problems.
 
+- #1863 Sum of all subset XOR totals: [code](python%2F01863_sum_of_all_subset_XOR_totals%2FSolution.py), [solution](python%2F01863_sum_of_all_subset_XOR_totals%2FREADME.md)
 
 ## <a id="rs"></a> Rust
 In this category, you will find various algorithms implemented in Rust. These algorithms solve specific problems and are 
