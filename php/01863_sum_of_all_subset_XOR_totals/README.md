@@ -1,3 +1,6 @@
+# 1863. Sum of all subset XOR totals
+#Description at [leetcode.com](https://leetcode.com/problems/sum-of-all-subset-xor-totals/description/)
+
 ## Intuition
 The problem asks us to find the sum of all XOR totals for every subset of a given array. Initially, we can think about 
 generating all possible subsets of the array and then calculating the XOR for each subset. However, doing this 
