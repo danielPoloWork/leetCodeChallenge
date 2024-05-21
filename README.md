@@ -37,6 +37,7 @@ In this category, you will find various algorithms implemented in C++. These alg
 often used as challenges during coding interviews. By studying these solutions, you can gain a deeper understanding of
 how to use C++ to solve complex programming problems.
 
+- #78 Subsets: [code](cpp%2F00078_subsets%2FSolution.cpp), [solution](cpp%2F00078_subsets%2FREADME.md)
 - #1863 Sum of all subset XOR totals: [code](cpp%2F01863_sum_of_all_subset_XOR_totals%2FSolution.cpp), [solution](cpp%2F01863_sum_of_all_subset_XOR_totals%2FREADME.md)
 
 ## <a id="java"></a> Java
@@ -44,6 +45,7 @@ In this category, you will find various algorithms implemented in Java. These al
 often used as challenges during coding interviews. By studying these solutions, you can gain a deeper understanding of
 how to use Java to solve complex programming problems.
 
+- #78 Subsets: [code](java%2F00078_subsets%2FSolution.java), [solution](java%2F00078_subsets%2FREADME.md)
 - #1863 Sum of all subset XOR totals: [code](java%2F01863_sum_of_all_subset_XOR_totals%2FSolution.java), [solution](java%2F01863_sum_of_all_subset_XOR_totals%2FREADME.md)
 
 ## <a id="js"></a> Javascript
@@ -58,6 +60,7 @@ often used as challenges during coding interviews. By studying these solutions, 
 how to use PHP to solve complex programming problems.
 
 - #1 Two sum: [code](php%2F00001_two_sum%2FSolution.php), [solution](php%2F00001_two_sum%2FREADME.md)
+- #78 Subsets: [code](php%2F00078_subsets%2FSolution.php), [solution](php%2F00078_subsets%2FREADME.md)
 - #420 Strong password checker: [code](php%2F00420_strong_password_checker%2FSolution.php), [solution](php%2F00420_strong_password_checker%2FREADME.md)
 - #979 Distribute coins in binary tree: [code](php%2F00979_distribute_coins_in_binary_tree%2FSolution.php), [solution](php%2F00979_distribute_coins_in_binary_tree%2FREADME.md)
 - #1325 Delete leaves with a given value: [code](php%2F01325_delete_leaves_with_a_given_value%2FSolution.php), [solution](php%2F01325_delete_leaves_with_a_given_value%2FREADME.md)
@@ -71,6 +74,7 @@ In this category, you will find various algorithms implemented in Python. These 
 are often used as challenges during coding interviews. By studying these solutions, you can gain a deeper understanding 
 of how to use Python to solve complex programming problems.
 
+- #78 Subsets: [code](python%2F00078_subsets%2FSolutions.py), [solution](python%2F00078_subsets%2FREADME.md)
 - #1863 Sum of all subset XOR totals: [code](python%2F01863_sum_of_all_subset_XOR_totals%2FSolution.py), [solution](python%2F01863_sum_of_all_subset_XOR_totals%2FREADME.md)
 
 ## <a id="rs"></a> Rust
@@ -78,6 +82,7 @@ In this category, you will find various algorithms implemented in Rust. These al
 often used as challenges during coding interviews. By studying these solutions, you can gain a deeper understanding of
 how to use Rust to solve complex programming problems.
 
+- #78 Subsets: [code](rust%2F00078_subsets%2FSolution.rs), [solution](rust%2F00078_subsets%2FREADME.md)
 - #1863 Sum of all subset XOR totals: [code](rust%2F01863_sum_of_all_subset_XOR_totals%2FSolution.rs), [solution](rust%2F01863_sum_of_all_subset_XOR_totals%2FREADME.md)
 
 ## <a id="sql"></a> Sql
