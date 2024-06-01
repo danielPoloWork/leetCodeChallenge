@@ -81,6 +81,7 @@ of how to use Python to solve complex programming problems.
 
 - #78 Subsets: [code](python%2F00078_subsets%2FSolutions.py), [solution](python%2F00078_subsets%2FREADME.md)
 - #1863 Sum of all subset XOR totals: [code](python%2F01863_sum_of_all_subset_XOR_totals%2FSolution.py), [solution](python%2F01863_sum_of_all_subset_XOR_totals%2FREADME.md)
+- #3110 Score of a string: [code](python%2F03110_score_of_a_string%2FSolution.py), [solution](python%2F03110_score_of_a_string%2FREADME.md)
 
 ## <a id="rs"></a> Rust
 In this category, you will find various algorithms implemented in Rust. These algorithms solve specific problems and are 
