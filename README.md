@@ -106,3 +106,5 @@ how to use SQL to solve complex programming problems.
 In this category, you will find various algorithms implemented in TS. These algorithms solve specific problems and are 
 often used as challenges during coding interviews. By studying these solutions, you can gain a deeper understanding of 
 how to use TS to solve complex programming problems.
+
+- #3110 Score of a string: [code](ts%2F03110_score_of_a_string%2FSolution.ts), [solution](ts%2F03110_score_of_a_string%2FREADME.md)
