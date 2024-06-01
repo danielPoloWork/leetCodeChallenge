@@ -40,7 +40,7 @@ how to use C++ to solve complex programming problems.
 - #78 Subsets: [code](cpp%2F00078_subsets%2FSolution.cpp), [solution](cpp%2F00078_subsets%2FREADME.md)
 - #1863 Sum of all subset XOR totals: [code](cpp%2F01863_sum_of_all_subset_XOR_totals%2FSolution.cpp), [solution](cpp%2F01863_sum_of_all_subset_XOR_totals%2FREADME.md)
 - #3110 Score of a string: [code](cpp%2F03110_score_of_a_string%2FSolution.cpp), [solution](cpp%2F03110_score_of_a_string%2FREADME.md)
-- 
+
 ## <a id="java"></a> Java
 In this category, you will find various algorithms implemented in Java. These algorithms solve specific problems and are
 often used as challenges during coding interviews. By studying these solutions, you can gain a deeper understanding of
@@ -48,6 +48,7 @@ how to use Java to solve complex programming problems.
 
 - #78 Subsets: [code](java%2F00078_subsets%2FSolution.java), [solution](java%2F00078_subsets%2FREADME.md)
 - #1863 Sum of all subset XOR totals: [code](java%2F01863_sum_of_all_subset_XOR_totals%2FSolution.java), [solution](java%2F01863_sum_of_all_subset_XOR_totals%2FREADME.md)
+- #3110 Score of a string: [code](java%2F03110_score_of_a_string%2FSolution.java), [solution](java%2F03110_score_of_a_string%2FREADME.md)
 
 ## <a id="js"></a> Javascript
 In this category, you will find various algorithms implemented in JS. These algorithms solve specific problems and are
