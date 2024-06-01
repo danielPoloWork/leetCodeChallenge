@@ -55,6 +55,7 @@ In this category, you will find various algorithms implemented in JS. These algo
 often used as challenges during coding interviews. By studying these solutions, you can gain a deeper understanding of
 how to use JS to solve complex programming problems.
 
+- #3110 Score of a string: [code](js%2F03110_score_of_a_string%2FSolution.js), [solution](js%2F03110_score_of_a_string%2FREADME.md)
 
 ## <a id="php"></a> Php
 In this category, you will find various algorithms implemented in PHP. These algorithms solve specific problems and are 
