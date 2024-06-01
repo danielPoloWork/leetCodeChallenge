@@ -90,6 +90,7 @@ how to use Rust to solve complex programming problems.
 
 - #78 Subsets: [code](rust%2F00078_subsets%2FSolution.rs), [solution](rust%2F00078_subsets%2FREADME.md)
 - #1863 Sum of all subset XOR totals: [code](rust%2F01863_sum_of_all_subset_XOR_totals%2FSolution.rs), [solution](rust%2F01863_sum_of_all_subset_XOR_totals%2FREADME.md)
+- #3110 Score of a string: [code](rust%2F03110_score_of_a_string%2FSolution.rs), [solution](rust%2F03110_score_of_a_string%2FREADME.md)
 
 ## <a id="sql"></a> Sql
 In this category, you will find various algorithms implemented in SQL. These algorithms solve specific problems and are
