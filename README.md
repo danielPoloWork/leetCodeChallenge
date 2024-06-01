@@ -69,6 +69,7 @@ how to use PHP to solve complex programming problems.
 - #2331 Evaluate boolean binary tree: [code](php%2F02331_evaluate_boolean_binary_tree%2FSolution.php), [solution](php%2F02331_evaluate_boolean_binary_tree%2FREADME.md)
 - #2812 Find the safest path in a grid: [code](php%2F02812_find_the_safest_path_in_a_grid%2FSolution.php), [solution](php%2F02812_find_the_safest_path_in_a_grid%2FREADME.md)
 - #3068 Find the maximum sum of node values: [code](php%2F03068_find_the_maximum_sum_of_node_values%2FSolution.php), [solution](php%2F03068_find_the_maximum_sum_of_node_values%2FREADME.md)
+- #3110 Score of a string: [code](php%2F03110_score_of_a_string%2FSolution.php), [solution](php%2F03110_score_of_a_string%2FREADME.md)
 
 ## <a id="py"></a> Python
 In this category, you will find various algorithms implemented in Python. These algorithms solve specific problems and 
