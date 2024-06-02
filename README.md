@@ -40,8 +40,6 @@ resources and challenges you need to succeed.
 - [Sql](#sql)
 - [Typescript](#ts)
 
----
-
 ## <a id="sh"></a> Bash
 In this category, you will find various algorithms implemented in Bash. These algorithms solve specific problems and are
 often used as challenges during coding interviews. By studying these solutions, you can gain a deeper understanding of
