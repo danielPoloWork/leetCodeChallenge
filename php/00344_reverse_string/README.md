@@ -33,11 +33,6 @@ any additional space proportional to the input size.
 ## Code
 ```php
 class Solution {
-
-    /**
-     * @param String[] $s
-     * @return void
-     */
     function reverseString(&$s): void {
         $left  = 0;
         $right = count($s) - 1;
@@ -50,6 +45,15 @@ class Solution {
             $left++;
             $right--;
         }
+    }
+}
+```
+
+## Built-in method
+```php
+class Solution {
+    function reverseString(&$s): void {
+        $s = array_reverse($s, true);
     }
 }
 ```
