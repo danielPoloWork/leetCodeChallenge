@@ -96,6 +96,7 @@ often used as challenges during coding interviews. By studying these solutions, 
 how to use Rust to solve complex programming problems.
 
 - #78 Subsets: [code](rust%2F00078_subsets%2FSolution.rs), [solution](rust%2F00078_subsets%2FREADME.md)
+- #344 Reverse string: [code](rust%2F00344_reverse_string%2FSolution.rs), [solution](rust%2F00344_reverse_string%2FREADME.md)
 - #1863 Sum of all subset XOR totals: [code](rust%2F01863_sum_of_all_subset_XOR_totals%2FSolution.rs), [solution](rust%2F01863_sum_of_all_subset_XOR_totals%2FREADME.md)
 - #3110 Score of a string: [code](rust%2F03110_score_of_a_string%2FSolution.rs), [solution](rust%2F03110_score_of_a_string%2FREADME.md)
 
