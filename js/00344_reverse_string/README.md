@@ -6,7 +6,7 @@ The most intuitive and efficient way to reverse an array of characters in place 
 placing one pointer at the beginning and another at the end of the array, and swapping the characters at these positions 
 while moving the pointers towards each other, we can reverse the array with minimal extra memory usage.
 
-# Approach
+## Approach
 1. Initialize Pointers: Set two pointers, left at the start of the array (index 0) and right at the end of the array 
    (index s.length - 1).
 2. Swap Elements: While the left pointer is less than the right pointer, swap the characters at these two pointers.
