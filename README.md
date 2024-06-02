@@ -3,11 +3,11 @@
 prepare for technical interviews.
 
 Session 0 (Active)
-- Current Points: 685
-- Accepted questions: 97
-- Submitted questions: 107
-- Accepted submissions: 133
-- Total submissions: 195
+- Current Points: 696
+- Accepted questions: 98
+- Submitted questions: 108
+- Accepted submissions: 140
+- Total submissions: 202
 
 In this public repository you may find some solutions I approached to LeetCode challenge problems. LeetCode is the 
 golden standard for technical interviews. LeetCode problems are widely used during technical interviews at companies 
