@@ -40,6 +40,7 @@ often used as challenges during coding interviews. By studying these solutions, 
 how to use C++ to solve complex programming problems.
 
 - #78 Subsets: [code](cpp%2F00078_subsets%2FSolution.cpp), [solution](cpp%2F00078_subsets%2FREADME.md)
+- #344 Reverse String: [code](cpp%2F00344_reverse_string%2FSolution.cpp), [solution](cpp%2F00344_reverse_string%2FREADME.md)
 - #1863 Sum of all subset XOR totals: [code](cpp%2F01863_sum_of_all_subset_XOR_totals%2FSolution.cpp), [solution](cpp%2F01863_sum_of_all_subset_XOR_totals%2FREADME.md)
 - #3110 Score of a string: [code](cpp%2F03110_score_of_a_string%2FSolution.cpp), [solution](cpp%2F03110_score_of_a_string%2FREADME.md)
 
