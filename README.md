@@ -113,4 +113,5 @@ In this category, you will find various algorithms implemented in TS. These algo
 often used as challenges during coding interviews. By studying these solutions, you can gain a deeper understanding of 
 how to use TS to solve complex programming problems.
 
+- #344 Reverse String: [code](ts%2F00344_reverse_string%2FSolution.ts), [solution](ts%2F00344_reverse_string%2FREADME.md)
 - #3110 Score of a string: [code](ts%2F03110_score_of_a_string%2FSolution.ts), [solution](ts%2F03110_score_of_a_string%2FREADME.md)
