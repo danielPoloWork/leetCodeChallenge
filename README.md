@@ -41,6 +41,7 @@ resources and challenges you need to succeed.
 - [Typescript](#ts)
 
 ---
+
 ## <a id="sh"></a> Bash
 In this category, you will find various algorithms implemented in Bash. These algorithms solve specific problems and are
 often used as challenges during coding interviews. By studying these solutions, you can gain a deeper understanding of
@@ -50,7 +51,7 @@ how to use Bash to solve complex programming problems.
 - #193 Valid phone numbers: [code](bash%2F00192_word_frequency%2FSolution.sh), [solution](bash%2F00192_word_frequency%2FREADME.md)
 - #194 Transpose file: [code](bash%2F00194_transpose_file%2FSolution.sh), [solution](bash%2F00194_transpose_file%2FREADME.md)
 - #195 Tenth line: [code](bash%2F00195_tenth_line%2FSolution.sh), [solution](bash%2F00195_tenth_line%2FREADME.md)
----
+
 ## <a id="cpp"></a> C++
 In this category, you will find various algorithms implemented in C++. These algorithms solve specific problems and are
 often used as challenges during coding interviews. By studying these solutions, you can gain a deeper understanding of
@@ -60,7 +61,7 @@ how to use C++ to solve complex programming problems.
 - #344 Reverse String: [code](cpp%2F00344_reverse_string%2FSolution.cpp), [solution](cpp%2F00344_reverse_string%2FREADME.md)
 - #1863 Sum of all subset XOR totals: [code](cpp%2F01863_sum_of_all_subset_XOR_totals%2FSolution.cpp), [solution](cpp%2F01863_sum_of_all_subset_XOR_totals%2FREADME.md)
 - #3110 Score of a string: [code](cpp%2F03110_score_of_a_string%2FSolution.cpp), [solution](cpp%2F03110_score_of_a_string%2FREADME.md)
----
+
 ## <a id="java"></a> Java
 In this category, you will find various algorithms implemented in Java. These algorithms solve specific problems and are
 often used as challenges during coding interviews. By studying these solutions, you can gain a deeper understanding of
@@ -70,7 +71,7 @@ how to use Java to solve complex programming problems.
 - #344 Reverse string: [code](java%2F0344_reverse_string%2FSolution.java), [solution](java%2F0344_reverse_string%2FREADME.md)
 - #1863 Sum of all subset XOR totals: [code](java%2F01863_sum_of_all_subset_XOR_totals%2FSolution.java), [solution](java%2F01863_sum_of_all_subset_XOR_totals%2FREADME.md)
 - #3110 Score of a string: [code](java%2F03110_score_of_a_string%2FSolution.java), [solution](java%2F03110_score_of_a_string%2FREADME.md)
----
+
 ## <a id="js"></a> Javascript
 In this category, you will find various algorithms implemented in JS. These algorithms solve specific problems and are
 often used as challenges during coding interviews. By studying these solutions, you can gain a deeper understanding of
@@ -78,7 +79,7 @@ how to use JS to solve complex programming problems.
 
 - #344 Reverse string: [code](js%2F00344_reverse_string%2FSolution.js), [solution](js%2F00344_reverse_string%2FREADME.md)
 - #3110 Score of a string: [code](js%2F03110_score_of_a_string%2FSolution.js), [solution](js%2F03110_score_of_a_string%2FREADME.md)
----
+
 ## <a id="php"></a> Php
 In this category, you will find various algorithms implemented in PHP. These algorithms solve specific problems and are 
 often used as challenges during coding interviews. By studying these solutions, you can gain a deeper understanding of 
@@ -96,7 +97,7 @@ how to use PHP to solve complex programming problems.
 - #2812 Find the safest path in a grid: [code](php%2F02812_find_the_safest_path_in_a_grid%2FSolution.php), [solution](php%2F02812_find_the_safest_path_in_a_grid%2FREADME.md)
 - #3068 Find the maximum sum of node values: [code](php%2F03068_find_the_maximum_sum_of_node_values%2FSolution.php), [solution](php%2F03068_find_the_maximum_sum_of_node_values%2FREADME.md)
 - #3110 Score of a string: [code](php%2F03110_score_of_a_string%2FSolution.php), [solution](php%2F03110_score_of_a_string%2FREADME.md)
----
+
 ## <a id="py"></a> Python
 In this category, you will find various algorithms implemented in Python. These algorithms solve specific problems and 
 are often used as challenges during coding interviews. By studying these solutions, you can gain a deeper understanding 
@@ -106,7 +107,7 @@ of how to use Python to solve complex programming problems.
 - #344 Reverse String: [code](python%2F00344_reverse_string%2FSolution.py), [solution](python%2F00344_reverse_string%2FREADME.md)
 - #1863 Sum of all subset XOR totals: [code](python%2F01863_sum_of_all_subset_XOR_totals%2FSolution.py), [solution](python%2F01863_sum_of_all_subset_XOR_totals%2FREADME.md)
 - #3110 Score of a string: [code](python%2F03110_score_of_a_string%2FSolution.py), [solution](python%2F03110_score_of_a_string%2FREADME.md)
----
+
 ## <a id="rs"></a> Rust
 In this category, you will find various algorithms implemented in Rust. These algorithms solve specific problems and are 
 often used as challenges during coding interviews. By studying these solutions, you can gain a deeper understanding of
@@ -116,7 +117,7 @@ how to use Rust to solve complex programming problems.
 - #344 Reverse string: [code](rust%2F00344_reverse_string%2FSolution.rs), [solution](rust%2F00344_reverse_string%2FREADME.md)
 - #1863 Sum of all subset XOR totals: [code](rust%2F01863_sum_of_all_subset_XOR_totals%2FSolution.rs), [solution](rust%2F01863_sum_of_all_subset_XOR_totals%2FREADME.md)
 - #3110 Score of a string: [code](rust%2F03110_score_of_a_string%2FSolution.rs), [solution](rust%2F03110_score_of_a_string%2FREADME.md)
----
+
 ## <a id="sql"></a> Sql
 In this category, you will find various algorithms implemented in SQL. These algorithms solve specific problems and are
 often used as challenges during coding interviews. By studying these solutions, you can gain a deeper understanding of
@@ -126,7 +127,7 @@ how to use SQL to solve complex programming problems.
 - #176 Second highest salary: [code](sql%2F00176_second_highest_salary%2FSolution.sql), [solution](sql%2F00176_second_highest_salary%2FREADME.md)
 - #177 Nth highest salary: [code](sql%2F00177_nth_highest_salary%2FSolution.sql), [solution](sql%2F00177_nth_highest_salary%2FREADME.md)
 - #178 Rank scores: [code](sql%2F00178_rank_scores%2FSolution.sql), [solution](sql%2F00178_rank_scores%2FREADME.md)
----
+
 ## <a id="ts"></a> Typescript
 In this category, you will find various algorithms implemented in TS. These algorithms solve specific problems and are 
 often used as challenges during coding interviews. By studying these solutions, you can gain a deeper understanding of 
@@ -134,4 +135,3 @@ how to use TS to solve complex programming problems.
 
 - #344 Reverse String: [code](ts%2F00344_reverse_string%2FSolution.ts), [solution](ts%2F00344_reverse_string%2FREADME.md)
 - #3110 Score of a string: [code](ts%2F03110_score_of_a_string%2FSolution.ts), [solution](ts%2F03110_score_of_a_string%2FREADME.md)
----
