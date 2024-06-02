@@ -47,7 +47,15 @@ class Solution {
             left++;                   
             right--; 
         }
-        
+    }
+};
+```
+
+## Built-in method
+```c++
+class Solution {
+    public: void reverseString(vector<char>& s) {
+         std::reverse(s.begin(), s.end());   
     }
 };
 ```
