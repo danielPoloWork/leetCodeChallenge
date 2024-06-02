@@ -66,7 +66,8 @@ how to use PHP to solve complex programming problems.
 
 - #1 Two sum: [code](php%2F00001_two_sum%2FSolution.php), [solution](php%2F00001_two_sum%2FREADME.md)
 - #78 Subsets: [code](php%2F00078_subsets%2FSolution.php), [solution](php%2F00078_subsets%2FREADME.md)
-- 131 Palindrome partitioning: [code](php%2F00131_palindrome_partitioning%2FSolution.php), [solution](php%2F00131_palindrome_partitioning%2FREADME.md)
+- #131 Palindrome partitioning: [code](php%2F00131_palindrome_partitioning%2FSolution.php), [solution](php%2F00131_palindrome_partitioning%2FREADME.md)
+- #344 Reverse String: [code](php%2F00344_reverse_string%2FSolution.php), [solution](php%2F00344_reverse_string%2FREADME.md)
 - #420 Strong password checker: [code](php%2F00420_strong_password_checker%2FSolution.php), [solution](php%2F00420_strong_password_checker%2FREADME.md)
 - #979 Distribute coins in binary tree: [code](php%2F00979_distribute_coins_in_binary_tree%2FSolution.php), [solution](php%2F00979_distribute_coins_in_binary_tree%2FREADME.md)
 - #1325 Delete leaves with a given value: [code](php%2F01325_delete_leaves_with_a_given_value%2FSolution.php), [solution](php%2F01325_delete_leaves_with_a_given_value%2FREADME.md)
