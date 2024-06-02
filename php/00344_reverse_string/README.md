@@ -1,3 +1,6 @@
+# 344. Reverse string
+#Description at [leetcode.com](https://leetcode.com/problems/reverse-string/description/)
+
 ## Intuition
 To reverse an array of characters efficiently, a two-pointer approach immediately comes to mind. This approach involves 
 using two pointers, one starting at the beginning and the other at the end of the array. By swapping the characters at 
