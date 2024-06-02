@@ -7,43 +7,34 @@
 # An array a is a subset of an array b if a can be obtained from b by deleting some (possibly zero) elements of b.
 
 class Solution(object):
+    """
+    :type nums: List[int]
+    :rtype: int
+    """
     def subsetXORSum(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: int
-        """
-        # Call helper function to compute XOR subset sum
-        return self.helper(nums, 0, 0)
+        return self.helper(nums, 0, 0) # Call helper function to compute XOR subset sum
 
+    """
+    A private helper function to calculate XOR subset sum.
+
+    :type nums: List[int]
+    :type index: int
+    :type currentXOR: int
+    :rtype: int
+    """
     def helper(self, nums, index, currentXOR):
-        """
-        A private helper function to calculate XOR subset sum.
-
-        :type nums: List[int]
-        :type index: int
-        :type currentXOR: int
-        :rtype: int
-        """
-        # Initialize sum
-        sum = 0
+        sum = 0 # Initialize sum
 
         try:
-            # Base case: If index is out of boundary, return the current XOR
+            """ Base case: If index is out of boundary, return the current XOR """
             if index == len(nums):
                 sum = currentXOR
             else:
-                # Recursive case 1: Include the current element in the XOR and move to the next element
-                include = self.helper(nums, index + 1, currentXOR ^ nums[index])
-
-                # Recursive case 2: Exclude the current element from the XOR. Move to the next element
-                # keeping the sum as is.
-                exclude = self.helper(nums, index + 1, currentXOR)
-
-                # Return the sum of both scenarios (including and excluding the current element)
-                sum = include + exclude
+                include = self.helper(nums, index + 1, currentXOR ^ nums[index]) # Recursive case 1: Include the current element in the XOR and move to the next element
+                exclude = self.helper(nums, index + 1, currentXOR)               # Recursive case 2: Exclude the current element from the XOR. Move to the next element, keeping the sum as is.
+                sum     = include + exclude                                      # Return the sum of both scenarios (including and excluding the current element)
         except Exception as e:
-            # Log any exception occurred during the operation
-            print("Caught exception:", e)
+            """ If any exception is thrown during the calculation, print the exception message. """
+            print(f"Caught exception: {str(e)}", file=sys.stderr)
 
-        # Return calculated XOR subset sum
-        return sum
+        return sum # Return calculated XOR subset sum
