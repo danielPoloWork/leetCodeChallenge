@@ -31,7 +31,9 @@ class Solution {
             $left  = 0;             // Initialize a pointer at the start of the array
             $right = count($s) - 1; // Initialize another pointer at the end of the array
 
-            /** Iterate until the two pointers meet in the middle. */
+            /**
+             * Iterate until the two pointers meet in the middle.
+             */
             while ($left < $right) {
                 $temp      = $s[$left];  // Swap the elements at the left and right pointers. Store the value at the left pointer in a temporary variable
                 $s[$left]  = $s[$right]; // Set the value at the left pointer as the value from the right pointer
@@ -41,10 +43,11 @@ class Solution {
                 $right--; // Move the right pointer towards the middle of the array by decrementing it
             }
         } catch (Throwable $t) {
-            /** If any exception is thrown during the calculation, print the exception message.*/
+            /**
+             * If any exception is thrown during the calculation, print the exception message.
+             */
             print_r("Caught exception:  {$t->getMessage()} \n");
         }
-
     }
 }
 
